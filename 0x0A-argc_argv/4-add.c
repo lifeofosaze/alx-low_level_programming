@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
@@ -10,17 +10,19 @@ include <stdio.h>
  * Return; Always 0 (Success)
  */
 
-int check_num(count string*/
-
-{
-if (!isdigit(str[count])) /*checkhar *str)
+int check_num(char *str)
 
 {
 /*Declaring variables*/
 unsigned int count;
 
 count = 0;
-while (count < strlen(str)) /*c if str there are digit*/
+while (count < strlen(str)) /*count string*/
+
+{
+if (!isdigit(str[count])) /*checf the program
+ * @argc: Count arguments
+ * @argv: k if str there are digit*/
 {
 return (0);
 }
@@ -31,9 +33,7 @@ return (1);
 }
 
 /**
- * main - Print the name of the program
- * @argc: Count arguments
- * @argv: Arguments
+ * main - Print the name oArguments
  *
  * return: Always 0 (Success)
  */
