@@ -20,9 +20,7 @@ count = 0;
 while (count < strlen(str)) /*count string*/
 
 {
-if (!isdigit(str[count])) /*checf the program
- * @argc: Count arguments
- * @argv: k if str there are digit*/
+if (!isdigit(str[count])) /*check if str there are digit*/
 {
 return (0);
 }
@@ -33,7 +31,9 @@ return (1);
 }
 
 /**
- * main - Print the name oArguments
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
  *
  * return: Always 0 (Success)
  */
